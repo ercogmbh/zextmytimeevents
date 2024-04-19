@@ -1,0 +1,57 @@
+{
+    "controllers": {
+        "App": "HCMFAB_TIME_EVT%2fcontroller%2fApp.controller.js",
+        "ChangeView": "HCMFAB_TIME_EVT%2fcontroller%2fChangeView.controller.js",
+        "NotFound": "HCMFAB_TIME_EVT%2fcontroller%2fNotFound.controller.js",
+        "Object": "HCMFAB_TIME_EVT%2fcontroller%2fObject.controller.js",
+        "Overview": "HCMFAB_TIME_EVT%2fcontroller%2fOverview.controller.js"
+    },
+    "views": {
+        "App": "HCMFAB_TIME_EVT%2fview%2fApp.view.xml",
+        "ChangeView": "HCMFAB_TIME_EVT%2fview%2fChangeView.view.xml",
+        "NotFound": "HCMFAB_TIME_EVT%2fview%2fNotFound.view.xml",
+        "Object": "HCMFAB_TIME_EVT%2fview%2fObject.view.xml",
+        "ObjectNotFound": "HCMFAB_TIME_EVT%2fview%2fObjectNotFound.view.xml",
+        "Overview": "HCMFAB_TIME_EVT%2fview%2fOverview.view.xml"
+    },
+    "fragments": {
+        "ApproverDialog": "HCMFAB_TIME_EVT%2fview%2ffragments%2fApproverDialog.fragment.xml",
+        "BalancesDialog": "HCMFAB_TIME_EVT%2fview%2ffragments%2fBalancesDialog.fragment.xml",
+        "FavoritesDialog": "HCMFAB_TIME_EVT%2fview%2ffragments%2fFavoritesDialog.fragment.xml",
+        "MessagesDialog": "HCMFAB_TIME_EVT%2fview%2ffragments%2fMessagesDialog.fragment.xml",
+        "SearchHelper": "HCMFAB_TIME_EVT%2fview%2ffragments%2fSearchHelper.fragment.xml"
+    },
+    "type": "abaprep",
+    "shouldLinkComponentToManifest": true,
+    "component": "HCMFAB_TIME_EVT%2fComponent.js",
+    "manifest": "HCMFAB_TIME_EVT%2fmanifest.json",
+    "versionJsonPath": "HCMFAB_TIME_EVT%2fversion.json",
+    "minUI5Version": "1.44.9",
+    "system": {
+        "name": "GFT",
+        "description": "GFT connection",
+        "proxyUrlPrefix": "/destinations/GFT",
+        "path": "/sap/bc/adt",
+        "url": "/destinations/GFT/sap/bc/adt",
+        "wattUsage": "dev_abap",
+        "proxyType": "OnPremise",
+        "entryPath": "/sap/bc/adt",
+        "sapClient": "",
+        "additionalData": []
+    },
+    "discoveryStatus": {
+        "csrfToken": "cy9kNnAOz_V17cKZ1El2oQ==",
+        "transports": "/destinations/GFT/sap/bc/adt/cts/transports",
+        "transportchecks": "/destinations/GFT/sap/bc/adt/cts/transportchecks",
+        "filestore_ui5_bsp": "/destinations/GFT/sap/bc/adt/filestore/ui5-bsp/objects",
+        "search": "/destinations/GFT/sap/bc/adt/repository/informationsystem/search",
+        "ato_settings": "/destinations/GFT/sap/bc/adt/ato/settings",
+        "ui5_rt_version": "/destinations/GFT/sap/bc/adt/filestore/ui5-bsp/ui5-rt-version",
+        "description": "GFT connection",
+        "proxyUrlPrefix": "/destinations/GFT"
+    },
+    "BSPName": "HCMFAB_TIME_EVT",
+    "namespace": "hcm.fab.mytimeevents",
+    "resourceBundle": "i18n/i18n.properties",
+    "parentResourceRootUrl": "/destinations/GFT/sap/bc/ui5_ui5/sap/HCMFAB_TIME_EVT"
+}
