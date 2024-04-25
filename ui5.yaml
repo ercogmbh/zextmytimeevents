@@ -44,4 +44,4 @@ server:
       afterMiddleware: fiori-tools-appreload
       configuration:
         component: hcm.fab.mytimeevents.com.erco.timeevents
-        ui5Theme: sap_bluecrystal
+        ui5Theme: sap_horizon

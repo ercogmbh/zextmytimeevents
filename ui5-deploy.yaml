@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "3.1"
+metadata:
+  name: hcm.fab.mytimeevents.com.erco.timeevents
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          destination: GFT_neu
+          url: http://gwgft.erco.com:8001/
+        app:
+          name: ZEXT_MYTIMEVT
+          description: My Time Events Extension
+          package: ZHR_ESS_MSS
+          transport: GFTK903798
+        exclude:
+          - /test/
