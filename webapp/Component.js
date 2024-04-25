@@ -1,10 +1,5 @@
 jQuery.sap.declare("hcm.fab.mytimeevents.com.erco.timeevents.Component");
 
-
-(function() {
-	jQuery.sap.registerModulePath("sap.hcm.lib.common", "/sap/bc/ui5_ui5/sap/hcm_common/sap/hcm/lib/common/");
-	}());
-
 // use the load function for getting the optimized preload file if present
 sap.ui.component.load({
 	name: "hcm.fab.mytimeevents",

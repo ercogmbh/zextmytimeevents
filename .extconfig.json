@@ -28,30 +28,30 @@
     "versionJsonPath": "HCMFAB_TIME_EVT%2fversion.json",
     "minUI5Version": "1.44.9",
     "system": {
-        "name": "GFT",
-        "description": "GFT connection",
-        "proxyUrlPrefix": "/destinations/GFT",
+        "name": "GFT_neu",
+        "description": "GFT_neu connection",
+        "proxyUrlPrefix": "/destinations/GFT_neu",
         "path": "/sap/bc/adt",
-        "url": "/destinations/GFT/sap/bc/adt",
+        "url": "/destinations/GFT_neu/sap/bc/adt",
         "wattUsage": "dev_abap",
         "proxyType": "OnPremise",
         "entryPath": "/sap/bc/adt",
-        "sapClient": "",
+        "sapClient": "100",
         "additionalData": []
     },
     "discoveryStatus": {
-        "csrfToken": "cy9kNnAOz_V17cKZ1El2oQ==",
-        "transports": "/destinations/GFT/sap/bc/adt/cts/transports",
-        "transportchecks": "/destinations/GFT/sap/bc/adt/cts/transportchecks",
-        "filestore_ui5_bsp": "/destinations/GFT/sap/bc/adt/filestore/ui5-bsp/objects",
-        "search": "/destinations/GFT/sap/bc/adt/repository/informationsystem/search",
-        "ato_settings": "/destinations/GFT/sap/bc/adt/ato/settings",
-        "ui5_rt_version": "/destinations/GFT/sap/bc/adt/filestore/ui5-bsp/ui5-rt-version",
-        "description": "GFT connection",
-        "proxyUrlPrefix": "/destinations/GFT"
+        "csrfToken": "tOvrASrwG_bvymLenuWrAA==",
+        "transports": "/destinations/GFT_neu/sap/bc/adt/cts/transports",
+        "transportchecks": "/destinations/GFT_neu/sap/bc/adt/cts/transportchecks",
+        "filestore_ui5_bsp": "/destinations/GFT_neu/sap/bc/adt/filestore/ui5-bsp/objects",
+        "search": "/destinations/GFT_neu/sap/bc/adt/repository/informationsystem/search",
+        "ato_settings": "/destinations/GFT_neu/sap/bc/adt/ato/settings",
+        "ui5_rt_version": "/destinations/GFT_neu/sap/bc/adt/filestore/ui5-bsp/ui5-rt-version",
+        "description": "GFT_neu connection",
+        "proxyUrlPrefix": "/destinations/GFT_neu"
     },
     "BSPName": "HCMFAB_TIME_EVT",
     "namespace": "hcm.fab.mytimeevents",
     "resourceBundle": "i18n/i18n.properties",
-    "parentResourceRootUrl": "/destinations/GFT/sap/bc/ui5_ui5/sap/HCMFAB_TIME_EVT"
+    "parentResourceRootUrl": "/destinations/GFT_neu/sap/bc/ui5_ui5/sap/HCMFAB_TIME_EVT"
 }

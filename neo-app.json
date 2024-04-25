@@ -5,25 +5,25 @@
       "path": "/sap/opu/odata",
       "target": {
         "type": "destination",
-        "name": "GW_GFT",
+        "name": "de1_https",
         "entryPath": "/sap/opu/odata"
       },
-      "description": "Gateway/Frontend Entwicklung"
+      "description": "DE1 ERP"
     },
     {
       "path": "/sap/bc/ui5_ui5",
       "target": {
         "type": "destination",
-        "name": "GW_GFT",
+        "name": "de1_https",
         "entryPath": "/sap/bc/ui5_ui5"
       },
-      "description": "Gateway/Frontend Entwicklung"
+      "description": "DE1 ERP"
     },
     {
       "path": "/resources/hcm/fab/lib/common",
       "target": {
         "type": "destination",
-        "name": "GW_GFT",
+        "name": "de1_https",
         "entryPath": "/sap/bc/ui5_ui5/sap/hcmfab_common",
         "preferLocal": true
       },
@@ -33,7 +33,7 @@
       "path": "/webapp/resources/hcm/fab/lib/common",
       "target": {
         "type": "destination",
-        "name": "GW_GFT",
+        "name": "de1_https",
         "entryPath": "/sap/bc/ui5_ui5/sap/hcmfab_common",
         "preferLocal": true
       },
@@ -63,7 +63,7 @@
       "path": "/dist/resources/hcm/fab/lib/common",
       "target": {
         "type": "destination",
-        "name": "GW_GFT",
+        "name": "de1_https",
         "entryPath": "/sap/bc/ui5_ui5/sap/hcmfab_common",
         "preferLocal": true
       },

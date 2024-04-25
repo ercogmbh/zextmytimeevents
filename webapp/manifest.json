@@ -11,8 +11,16 @@
         "sourceTemplate": {
             "id": "@sap/ux-app-migrator:extension",
             "version": "1.13.2",
-            "toolsId": "ddb20e2d-d4ff-4766-ba2c-894cffd2371b"
-        }
+            "toolsId": "e81744b3-bed1-46bd-8994-b1918c9203b9"
+        },
+        "dataSources": {
+			"timeEventService": {
+				"uri": "/sap/opu/odata/sap/ZHCMFAB_MYTIMEEVENTS_EXT_SRV/",
+				"settings": {
+					"localUri": "./localService/metadata.xml"
+				}
+			}
+		}
     },
     "sap.ui": {
         "_version": "1.1.0",
@@ -38,7 +46,14 @@
         },
         "extends": {
             "component": "hcm.fab.mytimeevents",
-            "extensions": {}
+            "extensions": {
+                
+				"sap.ui.controllerExtensions": {
+					"hcm.fab.mytimeevents.controller.Overview": {
+						"controllerName": "hcm.fab.mytimeevents.com.erco.timeevents.controller.OverviewCustom"
+					}
+				}
+			}
         },
         "contentDensities": {
             "compact": true,

@@ -11,18 +11,22 @@ server:
         backend:
           - path: /sap
             url: http://gwgft.erco.com:8001/
-            destination: GFT
+            client: "100"
+            destination: GFT_neu
           - path: /resources/hcm/fab/lib/common
-            destination: GFT
+            destination: GFT_neu
             url: http://gwgft.erco.com:8001/
+            client: "100"
             pathPrefix: /sap/bc/ui5_ui5/sap/hcmfab_common
           - path: /webapp/resources/hcm/fab/lib/common
-            destination: GFT
+            destination: GFT_neu
             url: http://gwgft.erco.com:8001/
+            client: "100"
             pathPrefix: /sap/bc/ui5_ui5/sap/hcmfab_common
           - path: /dist/resources/hcm/fab/lib/common
-            destination: GFT
+            destination: GFT_neu
             url: http://gwgft.erco.com:8001/
+            client: "100"
             pathPrefix: /sap/bc/ui5_ui5/sap/hcmfab_common
         ui5:
           path:
