@@ -91,7 +91,7 @@
 										</f:FormElement>
 									</f:formElements>
 								</f:FormContainer>
-								<f:FormContainer id="ADD_FIELDS">
+								<f:FormContainer id="ADD_FIELDS" visible="false">
 									<f:formElements></f:formElements>
 								</f:FormContainer>
 							</f:formContainers>
