@@ -51,6 +51,9 @@
 				"sap.ui.controllerExtensions": {
 					"hcm.fab.mytimeevents.controller.Overview": {
 						"controllerName": "hcm.fab.mytimeevents.com.erco.timeevents.controller.OverviewCustom"
+					},
+                    "hcm.fab.mytimeevents.controller.ChangeView": {
+						"controllerName": "hcm.fab.mytimeevents.com.erco.timeevents.controller.ChangeViewCustom"
 					}
 				}
 			}
